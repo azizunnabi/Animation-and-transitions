@@ -1,4 +1,24 @@
 
+
+.p-animate {
+  animation-name: para-animation;
+  animation-duration: 4s;
+  color: #6070ff;
+}
+
+@keyframes para-animation {
+  from {color: #6070ff;}
+  to {color: indigo;}    
+}
+
+.inline {
+  transition: color 4s;
+}
+
+.inline:hover {
+  color: red;
+}
+
 @media only screen and (min-width: 768px) {
   body {
     width: 1440px;
@@ -592,9 +612,6 @@
     margin-top: -30px;
   }
 
-  .inline {
-    text-decoration: none;
-  }
 
   .m-logo {
     padding-top: 10px;

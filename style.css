@@ -13,6 +13,18 @@
     flex-direction: row;
   }
 
+  .logo-animate {
+  width: 100px;
+  height: 100px;
+  color: red;
+  animation-name: example;
+  animation-duration: 4s;
+  }
+
+   @keyframes example {
+  from {color: red;}
+  to {color: yellow;}
+   }
   .m-logo {
     padding-top: 10px;
     padding-left: 40px;
